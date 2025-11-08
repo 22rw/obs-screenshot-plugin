@@ -98,4 +98,4 @@ function Build {
     Pop-Location -Stack BuildTemp
 }
 
-Build
+Build()
