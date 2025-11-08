@@ -15,7 +15,7 @@
                 "macos-arm64": "17a954636998b07355c66a3d242191bfde75467985cc64ab3c292859b1f54d28",
                 "macos-universal": "ecbfba9473abced9bd16ef2ac29ed61ce036c10a3135039d464a7611daf27fb8",
                 "windows-x64": "8de229cff6f1981508c0eb646b35e644633a5855787b9f5d3b90ae2aeb87ffc1",
-                "windows-x86": "48ae31f03235ac518af34f44963358222a4236fc7c511c6181eef9e351ca516a"
+                "windows-x86": "fb3c68b75911f292b3206e346053638db1c73605957207445a0a92b33ab5e00a"
             }
         },        
         "qt6": {
