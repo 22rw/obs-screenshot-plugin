@@ -24,7 +24,6 @@ if ( $PSVersionTable.PSVersion -lt '7.0.0' ) {
     exit 2
 }
 
-function Build {
     trap {
         Pop-Location -Stack BuildTemp -ErrorAction 'SilentlyContinue'
         Write-Error $_
@@ -96,6 +95,3 @@ function Build {
     Invoke-External cmake --install "build_${script:Target}" --prefix "${ProjectRoot}/release" @CmakeArgs
 
     Pop-Location -Stack BuildTemp
-}
-
-Build()
